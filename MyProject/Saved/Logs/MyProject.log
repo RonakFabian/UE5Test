@@ -1449,3 +1449,90 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.15-11.08.15:629][439]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2024.04.15-11.08.31:689][617]LogSlate: Window 'Source Control Login' being destroyed
 [2024.04.15-11.09.59:431][803]LogDerivedDataCache: E:/_PT/DerivedDataCache: Maintenance finished in +00:00:10.156 and deleted 0 files with total size 0 MiB. Scanned 5714 files in 5633 folders with total size 304 MiB.
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: ================================================
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: Total job queries 123, among them cache hits 20 (16.26%)
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: Tracking 100 distinct input hashes that result in 81 distinct outputs (81.00%)
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: RAM used: 0.88 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.15-11.12.37:621][328]LogShaderCompilers: Display: Shaders Compiled: 100
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Jobs assigned 103, completed 100 (97.09%)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Average time worker was idle: 23.07 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Time job spent in pending queue: average 6.08 s, longest 20.12 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Job execution time: average 5.81 s, max 15.39 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Job life time (pending + execution): average 12.07 s, max 22.66
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.36 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Jobs were issued in 65 batches (only local compilation was used), average 1.58 jobs/batch
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Average processing rate: 3.79 jobs/sec
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Total thread time: 169.18 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Total thread preprocess time: 7.87 s
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Percentage time preprocessing: 4.65%
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Effective parallelization: 6.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.98 sec, max 2.98 sec, min 2.98 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.74 sec, max 2.74 sec, min 2.74 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.56 sec, max 2.56 sec, min 2.56 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.53 sec, max 2.53 sec, min 2.53 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 2.47 sec, max 3.54 sec, min 1.18 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 24.85% of total time (compiled   17 times, average 2.47 sec, max 3.54 sec, min 1.18 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.45% of total time (compiled   12 times, average 1.90 sec, max 2.61 sec, min 1.43 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.33% of total time (compiled   12 times, average 1.60 sec, max 1.94 sec, min 1.31 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.53% of total time (compiled    7 times, average 1.34 sec, max 1.45 sec, min 1.17 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.82% of total time (compiled    8 times, average 1.02 sec, max 1.54 sec, min 0.62 sec)
+[2024.04.15-11.12.37:622][328]LogShaderCompilers: Display: ================================================
+[2024.04.15-11.14.20:549][329]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.15-11.14.20:549][329]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.15-11.14.20:549][329]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.15-11.14.21:633][329]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.15-11.14.21:673][329]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.15-11.14.21:679][329]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.15-11.14.21:708][330]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.15-11.14.23:024][465]LogContentBrowser: Attempting asset rename: NewBlueprint -> Test
+[2024.04.15-11.14.23:149][465]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.15-11.14.25:433][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.04.15-11.14.26:205][678]LogSlate: Window 'Save Content' being destroyed
+[2024.04.15-11.14.26:330][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-11.14.26:385][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Test" FILE="../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/Test.uasset" SILENT=true
+[2024.04.15-11.14.26:388][678]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Test
+[2024.04.15-11.14.26:388][678]LogSavePackage: Moving '../../../../../UE5Test/MyProject/Saved/Test482C4DB4427D07159EF503AB1E81DCED.tmp' to '../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/Test.uasset'
+[2024.04.15-11.14.26:595][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 1.81 sec)
+[2024.04.15-11.14.26:599][678]AssetCheck: New page: Asset Save: Test
+[2024.04.15-11.14.26:599][678]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/Test.Test
+[2024.04.15-11.14.34:605][486]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Test.Test
+[2024.04.15-11.14.34:606][486]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-11.14.36:576][486]LogViewport: Scene viewport resized to 921x589, mode Windowed.
+[2024.04.15-11.14.37:697][540]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.15-11.14.39:975][676]BlueprintLog: New page: Compile Test
+[2024.04.15-11.14.40:035][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.04.15-11.14.40:712][722]LogSlate: Window 'Test' being destroyed
+[2024.04.15-11.14.40:727][722]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.15-11.14.40:727][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.15-11.14.42:155][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.04.15-11.14.42:663][835]LogSlate: Window 'Save Content' being destroyed
+[2024.04.15-11.14.42:798][835]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-11.14.42:855][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Test" FILE="../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/Test.uasset" SILENT=true
+[2024.04.15-11.14.42:857][835]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Test
+[2024.04.15-11.14.42:858][835]LogSavePackage: Moving '../../../../../UE5Test/MyProject/Saved/TestF8908E5D43FE19EF74DB58B2DF1CEEFB.tmp' to '../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/Test.uasset'
+[2024.04.15-11.14.42:872][835]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.88 sec)
+[2024.04.15-11.14.42:878][835]AssetCheck: New page: Asset Save: Test
+[2024.04.15-11.14.42:879][835]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/Test.Test
+[2024.04.15-11.14.49:152][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.04.15-11.14.55:969][610]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.15-11.14.55:969][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-11.15.00:196][813]LogSlate: Window 'BP_Pickup_Rifle' being destroyed
+[2024.04.15-11.15.04:121][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.04.15-11.15.07:357][125]LogSlate: Window 'Save Content' being destroyed
+[2024.04.15-11.15.07:533][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-11.15.07:616][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Pickup_Rifle" FILE="../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset" SILENT=true
+[2024.04.15-11.15.07:629][125]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.15-11.15.07:629][125]LogSavePackage: Moving '../../../../../UE5Test/MyProject/Saved/BP_Pickup_Rifle1DF01A8F4438E206BA4CABABFA6C638D.tmp' to '../../../../../UE5Test/MyProject/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.15-11.15.07:633][125]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778
+[2024.04.15-11.15.07:633][125]LogSavePackage: Moving '../../../../../UE5Test/MyProject/Saved/ZNIOCRD90Z70MMV9NMW77812B7B7804176768C3B701D9C69232781.tmp' to '../../../../../UE5Test/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset'
+[2024.04.15-11.15.07:650][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 2.00 sec)
+[2024.04.15-11.15.07:665][125]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.15-11.15.07:665][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.15-11.15.07:665][125]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_44
+[2024.04.15-11.15.09:898][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.04.15-11.15.10:044][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.04.15-11.15.10:161][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
